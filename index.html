@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Age | Milo Projects</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="min-h-screen flex justify-center items-center">
+        <div class="border p-2 space-y-4">
+            <div>
+                <label for="name" class="font-bold text-md">Fill ur nickname : </label>
+                <input type="text" id="username" name="username" class="border rounded-md p-1" placeholder="Ex : John">
+            </div>
+            
+            <div>
+                <label for="year" class="font-bold text-md">Fill ur birthday year : </label>
+                <input type="number" id="year" name="year" class="border rounded-md p-1" placeholder="Ex : 1998">
+            </div>
+
+            <div>
+                <label for="month" class="font-bold text-md">Fill ur month birthday : </label>
+                <input type="number" id="month" name="month" class="border rounded-md p-1" placeholder="Ex : 1-12">
+            </div>
+
+            <div>
+                <label for="date" class="font-bold text-md">Fill ur date birthday : </label>
+                <input type="number" id="date" name="date" class="border rounded-md p-1" placeholder="Ex : 1-31">
+            </div>
+
+            <div class="text-center border rounded-md p-1 bg-black text-white">
+                <button id="btnSubmit">Check Age</button>
+            </div>
+
+            <div class="text-center">
+                <p id="results" class="font-bold text-lg"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
